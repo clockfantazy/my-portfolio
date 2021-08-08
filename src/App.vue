@@ -1,5 +1,9 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <div id="app">
+    <img src="./assets/logo.png">
+    <router-view/>
+    <button class="btn btn-primary">bootstrap</button>
+  </div>
   <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
