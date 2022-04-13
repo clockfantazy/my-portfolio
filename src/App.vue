@@ -1,12 +1,3 @@
-<template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
-    <button class="btn btn-primary">bootstrap</button>
-  </div>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-</template>
-
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 
@@ -19,12 +10,5 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import "./css/styles.css"
 </style>

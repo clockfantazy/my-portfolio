@@ -72,3 +72,16 @@
 }
 
 .overflow-hidden { overflow: hidden; }
+
+/*--------------------------------
+ ABOUT
+---------------------------------*/
+#about .about-bg {
+  background-color: whitesmoke;
+}
+
+#about .section-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
